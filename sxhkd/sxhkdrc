@@ -1,0 +1,130 @@
+#===============================================================================
+#=== { Config sxhkdrc by: ilu5ion } ============================================
+#===============================================================================
+#=== { BSPWM HOTKEYS } =========================================================
+#=== { Close and kill window } =================================================
+#===============================================================================
+
+alt + {_,shift + }k
+ 	bspc node -{c,k}
+
+#=== { Alternate layout: tiled and monocle mode } ==============================
+
+alt + m
+	bspc desktop -l next
+
+#=== { Balance windows - same area } ===========================================
+
+alt + b
+	bspc desktop -B
+
+#=== { Set floating OR fullscreen } ============================================
+
+alt + {e,shift+ e,r,f}
+	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+
+#=== { Swap desktops with last } ===============================================
+
+alt + apostrophe
+	bspc window -s last
+
+alt + {o,i}
+	bspc wm -h off; \
+	bspc node {older,newer} -f; \
+	bspc wm -h on
+
+alt + {grave,Tab}
+	bspc {window,desktop} -f last
+
+alt + y
+	bspc window -w last.manual
+
+#=== { Swap current window with the biggest on screen } ========================
+
+alt + n
+	bspc window -s biggest
+
+alt + {_,shift + }{j,k,i,l}
+	bspc window -{f,s} {left,down,up,right}
+
+#=== { Rotate tree } ===========================================================
+
+alt + shift + r  
+	bspc desktop -R 90
+
+#=== { Cycle window forward or backward } ======================================
+
+alt + {_,shift + }c
+        bspc node -f {next,prev}.local
+
+alt + {a,d}
+	bspc desktop -f {prev,next}
+
+#=== { Select where to split } =================================================
+
+alt + shitft + {Left,Down,Up,Right}
+	bspc window -p {left,down,up,right}
+
+#=== { Cancel preselect split } ================================================
+
+alt + {Left,Down,Up,Right}
+	bspc node -v {-20 0,0 20,0 -20,20 0}
+
+
+#=== { Send window to desktop } ================================================
+
+alt + {_,shift + }{1-9,0}
+	bspc {desktop -f,node -d} '^{1-9,10}'
+
+#=== { Move and resize window with mouse } =====================================
+
+~button1
+	bspc pointer -g focus
+
+alt + button{1-3}
+	bspc pointer -g {move,resize_side,resize_corner}
+
+alt + !button{1-3}
+	bspc pointer -t %i %i
+
+alt + @button{1-3}
+	bspc pointer -u
+
+#=== { Wm independent hotkeys } ================================================
+
+alt + Return
+	urxvt
+
+alt + control + f
+	qutebrowser
+
+alt + control + m
+	{urxvt -e mutt}
+
+alt + t
+	{thunar}
+
+alt + {F3,F4}
+  {amixer sset Master playback 5%+,amixer sset Master playback 5%-}
+
+alt + F5
+  amixer sset Master toggle
+
+alt + F1
+	oblogout
+
+alt + u
+     ~/.scripts/lock
+
+#=== { Dmenu2 from AUR } =======================================================
+
+alt + s
+    dmenu_run -i -p "run >" -l 3 -w 200 -h 10 -x 580 -y 350 -fn '-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*'  -o 0.9 -nb '#312e39' -nf '#87404f' -sb '#312e39' -sf '#4c9882'
+
+#=== { Make sxhkd reload its configuration files } =============================
+
+alt + Escape
+	pkill -x panel; bspc quit
+
+#super + Escape
+#	pkill -USR1 -x sxhkd

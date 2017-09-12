@@ -1,0 +1,47 @@
+#! /bin/sh
+
+#=== { ilu5ion's bspwmrc } ============
+
+sxhkd &
+
+#==={ Same config } ===================
+
+bspc monitor -d     
+bspc config border_width		1
+bspc config window_gap			1
+bspc config top_padding			32
+bspc config bottom_padding		30
+
+bspc config split_ratio             0.50
+bspc config borderless_monocle      true
+bspc config gapless_monocle         true
+bspc config focus_follows_pointer   true
+bspc config pointer_modifier
+
+#=== { Border colors } ================
+
+bspc config normal_border_color		"#252326"
+bspc config focused_border_color	"#783e57"
+bspc config presel_feedback_color	"#615772"
+
+
+#=== { Rules for applications } =======
+
+bspc rule -a Thunar desktop=^1
+bspc rule -a Qutebrowser desktop=^2 follow=on
+bspc rule -a Chromium desktop=^2 follow=on
+bspc rule -a Lxappearance desktop=^5 state=floating center=true
+bspc rule -a Gimp desktop=^4
+bspc rule -a URxvt state=floating
+bspc rule -a Nitrogen state=floating center=true 
+bspc rule -a Viewnior state=monocle
+bspc rule -a Wps desktop=^4 follow=on
+bspc rule -a Bleachbit state=floating
+bspc rule -a Mpv desktop=^4 state=fullscreen 
+bspc rule -a spotify desktop=^4
+#bspc rule -a Steam desktop=^3 follow=on split_dir=right
+bspc rule -a Oblogout state=fullscreen
+
+#=== { Load bar > polybar } ============
+
+~/.scripts/launch
