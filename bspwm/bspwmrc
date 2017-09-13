@@ -1,6 +1,6 @@
 #! /bin/sh
 
-#=== { ilu5ion's bspwmrc } ============
+#=== { K4L'EL bspwmrc } ===============
 
 sxhkd &
 
@@ -43,5 +43,5 @@ bspc rule -a spotify desktop=^4
 bspc rule -a Oblogout state=fullscreen
 
 #=== { Load bar > polybar } ============
-
-~/.scripts/launch
+yabar -c $HOME/.config/yabar/yabar.conf
+#~/.scripts/launch

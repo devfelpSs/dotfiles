@@ -16,4 +16,4 @@ z|x|c	: Decrease global upload throttle about 1|5|50 KB/s
 Z|X|C	: Decrease global download throttle about 1|5|50 KB/s
 
 
-OBS: For add new torrents, press ENTER and search folder and add the patch ex: /home/user/patch/of/your/torrent
+## OBS: For add new torrents, press ENTER and search folder and add the patch ex: /home/user/patch/of/your/torrent
