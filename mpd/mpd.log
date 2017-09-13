@@ -1,0 +1,151 @@
+
+Sep 10 21:38 : player: played "MonsterCat/Tristam & Braken - Frame of Mind.mp3"
+Sep 10 21:43 : player: played "MonsterCat/Rootkit - Against The Sun (feat. Anna Yvette).mp3"
+Sep 10 21:59 : player: played "MonsterCat/Vicetone - What I've Waited For (ft. D. Brown).mp3"
+Sep 10 22:03 : player: played "MonsterCat/Pegboard Nerds - BADBOI.mp3"
+Sep 10 22:06 : player: played "MonsterCat/Case & Point - Error Code.mp3"
+Sep 10 22:12 : player: played "MonsterCat/Project 46 - Motionless (feat. Seri).mp3"
+Sep 10 22:17 : player: played "MonsterCat/DotEXE - Battle Cry.mp3"
+Sep 10 22:21 : player: played "MonsterCat/Muzzy - Concert Crush.mp3"
+Sep 10 22:26 : player: played "MonsterCat/Tristam & Braken - Far Away.mp3"
+Sep 10 22:29 : player: played "MonsterCat/Televisor - Old Skool (Nitro Fun Remix).mp3"
+Sep 10 22:34 : player: played "MonsterCat/Tristam - Till It's Over.mp3"
+Sep 10 22:38 : player: played "MonsterCat/Feint - Snake Eyes (feat. CoMa).mp3"
+Sep 10 22:44 : player: played "MonsterCat/Rogue - Adventure Time.mp3"
+Sep 10 22:48 : player: played "MonsterCat/Pegboard Nerds - 20K.mp3"
+Sep 10 22:53 : client: [1] opened from 127.0.0.1:48548
+Sep 10 22:54 : client: [0] closed
+Sep 10 22:55 : player: played "MonsterCat/Muzzy - Endgame.mp3"
+Sep 10 22:56 : client: [1] closed
+Sep 10 22:56 : client: [2] opened from 127.0.0.1:48638
+Sep 10 23:00 : player: played "MonsterCat/Draper - Pressure (feat. Laura Brehm).mp3"
+Sep 10 23:03 : client: [2] closed
+Sep 10 23:03 : client: [3] opened from 127.0.0.1:49098
+Sep 10 23:04 : client: [3] closed
+Sep 10 23:04 : client: [4] opened from 127.0.0.1:49122
+Sep 10 23:04 : client: [4] closed
+Sep 10 23:04 : client: [5] opened from 127.0.0.1:49136
+Sep 10 23:06 : player: played "MonsterCat/Fractal - Itvara.mp3"
+Sep 10 23:10 : client: [5] closed
+Sep 10 23:10 : client: [6] opened from 127.0.0.1:49390
+Sep 10 23:12 : player: played "MonsterCat/Stonebank - Stronger (feat. EMEL).mp3"
+Sep 10 23:15 : player: played "MonsterCat/nanobii - Rainbow Road.mp3"
+Sep 10 23:24 : player: played "MonsterCat/Stonebank - Stronger (feat. EMEL).mp3"
+Sep 10 23:24 : client: [6] closed
+Sep 10 23:28 : player: played "MonsterCat/Ephixa - Awesome To The Max.mp3"
+Sep 10 23:28 : client: [7] opened from 127.0.0.1:49764
+Sep 10 23:30 : client: [7] closed
+Sep 10 23:30 : client: [8] opened from 127.0.0.1:49818
+Sep 10 23:31 : client: [9] opened from 127.0.0.1:49852
+Sep 10 23:31 : client: [8] closed
+Sep 10 23:33 : client: [10] opened from 127.0.0.1:49902
+Sep 10 23:33 : client: [10] closed
+Sep 10 23:34 : player: played "MonsterCat/PIXL - Broken Bones (feat. Cassandra Kay).mp3"
+Sep 10 23:39 : client: [9] closed
+Sep 11 01:30 : player: played "MonsterCat/Pegboard Nerds - Hero (feat. Elizaveta) (Teminite Remix).mp3"
+Sep 11 12:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 11 12:59 : client: [0] opened from 127.0.0.1:34756
+Sep 11 12:59 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 11 12:59 : update: added old's/Edward Maya - This Is My Life (Official Music Video) [HD].mp3
+Sep 11 12:59 : update: added old's/Akcent - Thats My Name.mp3
+Sep 11 12:59 : update: added old's/Mitch Murder - Guile's Theme.mp3.mp3
+Sep 11 12:59 : update: added old's/Edward Maya - Stereo Love (Original Mix).mp3
+Sep 11 12:59 : update: added old's/Mitch Murder - Montage.mp3
+Sep 11 12:59 : update: added old's/Infinity 2008 (Klaas Remix) - Guru Josh Project.mp3
+Sep 11 12:59 : update: added old's/Ayo Technology (Album Version (Explicit)) [feat. Justin Timberlake & Timbaland].mp3
+Sep 11 12:59 : update: added old's/Major Lazer & DJ Snake - Lean On (feat. MØ).mp3
+Sep 11 12:59 : update: added old's/Kiesza - Hideaway (Mitch Murder Remix) FREE DOWNLOAD.mp3
+Sep 11 12:59 : update: added NCS/Exit Friendzone ft. EDEN - Iris.mp3
+Sep 11 12:59 : update: added NCS/Alan Walker - Fade [NCS Release].mp3
+Sep 11 13:03 : player: played "old's/Mitch Murder - Montage.mp3"
+Sep 11 13:07 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 11 13:09 : client: [0] closed
+Sep 11 13:09 : client: [1] opened from 127.0.0.1:35010
+Sep 11 13:12 : player: played "old's/Infinity 2008 (Klaas Remix) - Guru Josh Project.mp3"
+Sep 11 13:15 : client: [1] closed
+Sep 11 13:16 : player: played "MonsterCat/Varien - Gunmetal Black.mp3"
+Sep 11 13:20 : client: [2] opened from 127.0.0.1:35250
+Sep 11 13:20 : player: played "old's/Edward Maya - Stereo Love (Original Mix).mp3"
+Sep 11 13:20 : client: [2] closed
+Sep 11 13:20 : client: [3] opened from 127.0.0.1:35266
+Sep 11 13:44 : player: played "MonsterCat/Feint - We Won't Be Alone (feat. Laura Brehm).mp3"
+Sep 11 13:47 : player: played "MonsterCat/Vicetone - What I've Waited For (ft. D. Brown).mp3"
+Sep 11 13:51 : player: played "old's/Edward Maya - This Is My Life (Official Music Video) [HD].mp3"
+Sep 11 13:56 : player: played "MonsterCat/Tristam - Truth.mp3"
+Sep 11 14:01 : player: played "MonsterCat/Tristam & Braken - Frame of Mind.mp3"
+Sep 11 14:06 : player: played "MonsterCat/Tristam & Braken - Far Away.mp3"
+Sep 11 14:11 : player: played "MonsterCat/Project 46 - Motionless (feat. Seri).mp3"
+Sep 11 14:20 : player: played "MonsterCat/Rogue - Dreams (feat. Laura Brehm).mp3"
+Sep 11 14:23 : player: played "MonsterCat/nanobii - Rainbow Road.mp3"
+Sep 11 14:28 : player: played "old's/Akcent - Thats My Name.mp3"
+Sep 11 14:32 : player: played "MonsterCat/Rich Edwards - Sweetest Addiction (feat. We Ghosts)(Radio Edit).mp3"
+Sep 11 14:36 : player: played "MonsterCat/Stonebank - The Pressure.mp3"
+Sep 11 14:42 : player: played "MonsterCat/Pegboard Nerds - Hero (feat. Elizaveta) (Teminite Remix).mp3"
+Sep 11 14:47 : player: played "MonsterCat/Rogue - Air.mp3"
+Sep 11 14:52 : player: played "MonsterCat/Pegboard Nerds & Tristam - Razor Sharp.mp3"
+Sep 11 14:56 : player: played "MonsterCat/Rootkit - Do It.mp3"
+Sep 11 14:57 : client: [3] closed
+Sep 11 17:33 : player: played "MonsterCat/Stonebank - The Pressure.mp3"
+Sep 11 19:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 11 19:05 : client: [0] opened from 127.0.0.1:37588
+Sep 11 19:05 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 11 19:10 : player: played "MonsterCat/Tristam & Braken - Frame of Mind.mp3"
+Sep 11 19:17 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 11 19:20 : player: played "old's/Major Lazer & DJ Snake - Lean On (feat. MØ).mp3"
+Sep 11 19:24 : player: played "MonsterCat/Tristam - Guardian.mp3"
+Sep 11 19:24 : client: [0] closed
+Sep 11 21:32 : client: [1] opened from 127.0.0.1:43232
+Sep 11 22:13 : player: played "MonsterCat/Au5 - Follow You (feat Danyka Nadeau) (VIP Mix).mp3"
+Sep 11 22:23 : player: played "MonsterCat/Au5 - Crossroad (feat. Danyka Nadeau).mp3"
+Sep 11 22:26 : player: played "MonsterCat/Tristam - I Remember (Original Mix).mp3"
+Sep 11 22:33 : player: played "MonsterCat/Muzzy - Endgame.mp3"
+Sep 11 22:44 : player: played "MonsterCat/Muzzy - Insignia.mp3"
+Sep 11 22:49 : player: played "MonsterCat/Rogue - Air.mp3"
+Sep 11 22:53 : player: played "old's/Infinity 2008 (Klaas Remix) - Guru Josh Project.mp3"
+Sep 11 22:56 : player: played "MonsterCat/Rich Edwards - Sweetest Addiction (feat. We Ghosts)(Radio Edit).mp3"
+Sep 11 23:00 : player: played "MonsterCat/Droptek - The Covenant.mp3"
+Sep 11 23:04 : player: played "MonsterCat/Droptek - Chaos Storm.mp3"
+Sep 11 23:09 : player: played "MonsterCat/Pegboard Nerds - Hero (feat. Elizaveta) (Teminite Remix).mp3"
+Sep 11 23:14 : player: played "MonsterCat/Muzzy - Letz Rock.mp3"
+Sep 11 23:19 : player: played "MonsterCat/Rogue - Forever.mp3"
+Sep 11 23:32 : player: played "MonsterCat/Stonebank - The Pressure.mp3"
+Sep 11 23:32 : client: [1] closed
+Sep 12 10:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 12 10:30 : client: [0] opened from 127.0.0.1:36726
+Sep 12 10:30 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 12 10:34 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 10:38 : player: played "old's/Mitch Murder - Montage.mp3"
+Sep 12 10:50 : client: [0] closed
+Sep 12 11:49 : client: [1] opened from 127.0.0.1:38156
+Sep 12 11:50 : player: played "old's/Edward Maya - Stereo Love (Original Mix).mp3"
+Sep 12 11:54 : player: played "old's/Edward Maya - This Is My Life (Official Music Video) [HD].mp3"
+Sep 12 11:57 : player: played "old's/Infinity 2008 (Klaas Remix) - Guru Josh Project.mp3"
+Sep 12 13:14 : player: played "old's/Major Lazer & DJ Snake - Lean On (feat. MØ).mp3"
+Sep 12 13:23 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 13:34 : client: [2] opened from 127.0.0.1:39570
+Sep 12 13:35 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 13:35 : client: [2] closed
+Sep 12 13:35 : client: [3] opened from 127.0.0.1:39574
+Sep 12 13:42 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 13:43 : client: [3] closed
+Sep 12 13:43 : client: [1] closed
+Sep 12 15:07 : client: [4] opened from 127.0.0.1:39578
+Sep 12 15:11 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 15:11 : client: [4] closed
+Sep 12 16:04 : client: [5] opened from 127.0.0.1:39594
+Sep 12 16:08 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 16:12 : player: played "MonsterCat/Feint - We Won't Be Alone (feat. Laura Brehm).mp3"
+Sep 12 16:17 : player: played "MonsterCat/Tristam & Braken - Frame of Mind.mp3"
+Sep 12 16:25 : player: played "MonsterCat/Varien - Valkyrie II Lacuna (feat. Cassandra Kay).mp3"
+Sep 12 17:07 : client: [5] closed
+Sep 12 17:08 : player: played "MonsterCat/Au5 - Snowblind (feat. Tasha Baxter).mp3"
+Sep 12 22:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 12 22:48 : client: [0] opened from 127.0.0.1:32842
+Sep 12 22:48 : update: added /Cartoon - On and On (Mataio Remix).mp3
+Sep 12 22:48 : update: added /Station Earth - Cold Green Eyes ft. Roos Denayer.mp3
+Sep 12 22:48 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 12 22:49 : client: [0] closed
+Sep 12 22:50 : client: [1] opened from 127.0.0.1:32886
+Sep 12 22:56 : player: played "NCS/Exit Friendzone ft. EDEN - Iris.mp3"
+Sep 12 22:59 : client: [1] closed
+Sep 12 22:59 : player: played "MonsterCat/Feint - We Won't Be Alone (feat. Laura Brehm).mp3"
