@@ -1,0 +1,26 @@
+URxvt*foreground:
+URxvt*background:
+! !black
+URxvt*color0:
+URxvt*color8:
+! !red
+URxvt*color1:
+URxvt*color9:
+! !green
+URxvt*color2:
+URxvt*color10:
+! !yellow
+URxvt*color3:
+URxvt*color11:
+! !blue
+URxvt*color4:
+URxvt*color12:
+! !magenta
+URxvt*color5:
+URxvt*color13:
+! !cyan
+URxvt*color6:
+URxvt*color14:
+! !white
+URxvt*color7:
+URxvt*color15:

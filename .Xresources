@@ -1,0 +1,49 @@
+!-------------------------------!                                                                   
+! ╻ ╻┏━┓┏━╸┏━┓┏━┓╻ ╻┏━┓┏━╸┏━╸┏━┓!
+! ┏╋┛┣┳┛┣╸ ┗━┓┃ ┃┃ ┃┣┳┛┃  ┣╸ ┗━┓!
+! ╹ ╹╹┗╸┗━╸┗━┛┗━┛┗━┛╹┗╸┗━╸┗━╸┗━┛!
+! by ilu5ion                    !
+!-------------------------------!
+
+!!----------------------------------------------------------------------------!!
+!! Xft (font) settings
+!!----------------------------------------------------------------------------!!
+
+Xft.dpi:                                        96
+URxvt*depth:                                    8
+Xft.antialias:                                  true
+Xft.rgba:                                       rgb
+Xft.hinting:                                    full
+Xft.hintstyle:                                  hintslight
+URxvt.internalBorder:							20
+xft*lcdfilter:									lcddefault
+URxvt.letterSpace:								0
+#include </home/whoami/.termcolors/phenotype>     
+
+!!----------------------------------------------------------------------------!!
+!! URxvt settings
+!!----------------------------------------------------------------------------!!
+
+URxvt*font:                                     -*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*                                                                                                                          
+URxvt*boldfont:                                 -*-terminus-bold-*-medium-r-*-*-12-*-*-*-*-*-*-*
+!URxvt*geometry:                                600x300
+URxvt*borderLess:                               false
+URxvt*scrollBar:                                false
+URxvt*cursorBlink:                              true
+URxvt*cursorUnderline:							false
+URxvt.underlineURLs:                            true
+URxvt.url-select.underline:                     true
+URxvt.url-select.launcher:                      qutebrowser
+
+!!----------------------------------------------------------------------------!! 
+!! Clipboard
+!!----------------------------------------------------------------------------!!
+
+URxvt.keysym.C-c:								perl:clipboard:copy
+URxvt.keysym.C-v:								perl:clipboard:paste
+URxvt.keysym.M-C-i:								perl:clipboard:paste_escaped
+URxvt.keysym.M-Escape:							perl:keyboard-select:activate
+URxvt.keysym.M-u:								perl:url-select:select_next
+URxvt*perl-ext-common:                          default,clipboard,url-select,keyboard-select 
+
+!!----------------------------------------------------------------------------!! 

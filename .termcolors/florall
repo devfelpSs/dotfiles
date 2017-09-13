@@ -1,0 +1,23 @@
+! Stolen from:
+! https://github.com/apathyrecharge
+
+! Colors
+*borderColor:  #0d0d1b
+*background:   #0d0d1b
+*foreground:   #ccccce
+*color0:       #282828
+*color8:       #98218e
+*color1:       #ca1444
+*color9:       #cb515d
+*color2:       #789aba
+*color10:      #5a87b1
+*color3:       #b3879f
+*color11:      #9c61ab
+*color4:       #94469b
+*color12:      #9a77b1
+*color5:       #cb6fa1
+*color13:      #f2a297
+*color6:       #fb6e93
+*color14:      #f4436f
+*color7:       #cf98c1
+*color15:      #ebdbb2

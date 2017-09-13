@@ -1,0 +1,38 @@
+! Color-scheme : Mirage                                                                  
+! Author       : ilu5ion <github.com/ilu5ion>
+
+*background: #252326
+*foreground: #BDC6DA 
+*cursorColor: #ECE8E8
+
+!black
+*color0:  #19253E
+*color8:  #304573
+
+!red
+*color1: #93503e
+*color9: #93503e
+ 
+!green
+*color2: #7a8648
+*color10: #7a8648
+
+!yellow
+*color3: #BB913C
+*color11: #BB913C
+
+!blue
+*color4:  #566e6b
+*color12: #566e6b
+
+!magenta
+*color5:  #707880
+*color13: #707880
+
+!cyan
+*color6:  #476943
+*color14: #476943
+
+!white
+*color7:  #ECE8E8
+*color15: #ECE8E8
