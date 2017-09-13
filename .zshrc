@@ -132,4 +132,3 @@ alias system="inxi -F && dfc -T" #System Information
 alias shot="scrot -cd 5 ~/Imagens/shots/%Y-%m-%d-%T-screenshot.png" #Print images
 alias speedtest="speedtest-cli --share --secure" # Test Connection, require package speedtest-cli from AUR
 alias fuck='pkill -9' #Kill applications
-#alias history20="cut -f1 -d" " .bash_history | sort | uniq -c | sort -nr | head -n 20"
