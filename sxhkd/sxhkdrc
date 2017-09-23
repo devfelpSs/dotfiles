@@ -119,7 +119,7 @@ alt + u
 #=== { Dmenu2 from AUR } =======================================================
 
 alt + s
-   dmenu_run -b -q -z -l 1 -fn 'Ubuntu Mono-8' -x 580 -o 0.9 -y 350 -w 200 -nb "#47575f" -nf "#ffffff" -sb "#4c9882" -sf "#ffffff" 
+   dmenu_run -b -q -z -l 1 -fn '-*-terminus-medium-r-*-*-12-*-*-*-*-*-*-*' -x 580 -o 0.9 -y 350 -w 200 -nb "#47575f" -nf "#ffffff" -sb "#4c9882" -sf "#ffffff" 
 
 #=== { Make sxhkd reload its configuration files } =============================
 
