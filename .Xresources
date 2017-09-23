@@ -2,7 +2,7 @@
 ! ╻ ╻┏━┓┏━╸┏━┓┏━┓╻ ╻┏━┓┏━╸┏━╸┏━┓!
 ! ┏╋┛┣┳┛┣╸ ┗━┓┃ ┃┃ ┃┣┳┛┃  ┣╸ ┗━┓!
 ! ╹ ╹╹┗╸┗━╸┗━┛┗━┛┗━┛╹┗╸┗━╸┗━╸┗━┛!
-! by K4L'EL                     !
+! by K4LEL                      !
 !-------------------------------!
 
 !!----------------------------------------------------------------------------!!
@@ -18,7 +18,7 @@ Xft.hintstyle:                                  hintslight
 URxvt.internalBorder:							20
 xft*lcdfilter:									lcddefault
 URxvt.letterSpace:								0
-#include </home/whoami/.termcolors/phenotype>     
+#include </home/whoami/.termcolors/synthwave>     
 
 !!----------------------------------------------------------------------------!!
 !! URxvt settings
