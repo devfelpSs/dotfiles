@@ -1,4 +1,11 @@
-;=== { K4LEL's Polybar configuration } ==================================
+;=====================================================
+;
+;   To learn more about how to configure Lemonbuddy
+;  go to https://github.com/jaagr/lemonbuddy
+;
+;   The README contains alot of information
+;
+;=====================================================
 
 [settings]
 ; Limit the amount of events sent to lemonbar within a set timeframe:
@@ -7,98 +14,161 @@
 ;throttle_limit = 5
 ;throttle_ms = 50
 
-[bar/bottom]
-wm-name = bottom
+[bar/top]
+wm-name = bar_top
 monitor = LVDS-1
-bottom = true 
+bottom = false
 override-redirect = true
 wm-restack = bspwm
 width = 100%
 height = 25
 ;offset_x = 1366
 offset-y = 4
-background = #00476771
+background = #00252326
 underline-size = 3
 spacing = 1
 
-;locale = en_US.UTF-8
+locale = pt_BR.UTF-8
 padding-left = 0
 padding-right = 0
 module_margin-left = 1
 module-margin-right = 0
-separator = " "
-font-0 = BeastieTerminus12:size=9;0
-font-1 = FontAwesome:size=9;0
+;separator = " "
+font-0 = Roboto:size=8;2
+font-1 = FontAwesome:size=8;3
 
-modules-center = bspwm cpu coretemp ram pacman vol clock 
+modules-center = space cpu ram weather pacman vol cal clock space2
+[module/space]
+type = custom/script
+exec = echo ..
+format-background = #252326
+format-foreground = #252326
+format-underline = #252326
+format-padding = 1
 
 [module/cpu]
 type = internal/cpu
-label =  %percentage%%
-format-background = #476771
-format-foreground = #F1E6D9
-format-underline = #6d8b94
-format-padding = 1
-
-[module/coretemp]
-type = custom/script
-exec-if = sensors
-;exec = sensors | grep Core | awk '{print substr($3, length($3)-5)}' | tr '\n' ' ' | sed 's/ /C  /g'
-exec = sensors  | awk '/Core 0/{print $3}' |awk '{if (match($0,/[0-9]+/,m)) print m[0]"°C"}'
-format-prefix = " "
-format-background = #476771
-format-foreground = #F1E6D9
-format-underline = #6d8b94
-format-padding = 1
+label =  %percentage%%
+format-background = #252326
+format-foreground = #566e6b
+format-underline = #252326
+format-padding = 2
 
 [module/ram]
 type = custom/script
 exec = ~/.scripts/mram
-format-background = #476771
-format-foreground = #F1E6D9
-format-underline = #6d8b94
-format-padding = 1
+format-background = #252326
+format-foreground = #93503e
+format-underline = #252326
+format-padding = 2
 interval = 1
+
+[module/weather]
+type = custom/script
+exec = ~/.scripts/weather.sh "BR|ES|38209|Serra"
+interval = 30
+format-background = #252326
+format-foreground = #BB913C
+format-underline = #252326
+format-padding = 2
+;click-right = 
 
 [module/pacman]
 type = custom/script
 exec = ~/.scripts/pkg
 interval = 10
 format = <label>
-format-background = #476771
-format-foreground = #F1E6D9
-format-underline = #6d8b94
-format-padding = 1
+format-background = #252326
+format-foreground = #c4bbb0
+format-underline = #252326
+format-padding = 2
 click-left = urxvt -name "updates" --geometry 94x50 -e zsh -c "$HOME/.scripts/listupg"
 click-right = urxvt -name "listupdates" --geometry 94x50 -e zsh -c "$HOME/.scripts/upg"
+
+;[module/mail]
+;type = custom/script
+;interval = 10
+;format = <label>
+;format-prefix = " "
+;format-background = #252326
+;format-foreground = #707880
+;format-underline = #252326 
+;format-padding = 2
+;exec = ~/.scripts/mail
 
 [module/vol]
 type = custom/script
 interval = 2
 label = %output%
-format-background = #476771
-format-foreground = #F1E6D9
-format-underline = #6d8b94
+format-background = #252326
+format-foreground = #7b6064
+format-underline = #252326
 format-padding = 2
 exec = ~/.scripts/pavolume.sh
 click-right = exec pavucontrol
-click-left = ~/.scripts/pavolume.sh --togmute                                                         
+click-left = ~/.scripts/pavolume.sh --togmute
 scroll-up = ~/.scripts/pavolume.sh --up
 scroll-down = ~/.scripts/pavolume.sh --down
+
+[module/cal]
+type = internal/date
+date = 
+date-alt = " %a %H %M"
+time =  %d %b
+time-alt = %d %b
+label = %time%
+format-background = #252326
+format-foreground = #7a8648
+format-underline = #252326
+format-padding = 2
 
 [module/clock]
 type = internal/date
 date =
 date-alt = "%a %H %M "
-time =  %d %b, %I:%M
-time-alt = %I:%M
+time =  %H:%M
+time-alt = %H:%M
 label = %time%
-format-background = #476771
-format-foreground = #F1E6D9
-format-underline = #6d8b94
-format-padding = 1 
+format-background = #252326
+format-foreground = #566e6b
+format-underline = #252326
+format-padding = 2
 
-;=== { Bar configuration bottom } =========================================
+[module/space2]
+type = custom/script
+exec = echo ..
+format-background = #252326
+format-foreground = #252326
+format-underline = #252326
+format-padding = 1
+
+;==========================
+; Bar configuration bottom
+;==========================
+
+[bar/bottom]
+wm-name = bar_bottom
+monitor = LVDS-1
+bottom = true
+override-redirect = true
+wm-restack = bspwm
+width = 100%
+height = 22
+offset-y = 4
+background = #00252326
+underline-size = 3
+
+spacing = 1
+;separator = |
+padding_left = 0
+padding_right = 0
+module_margin_left = 1
+module_margin_right = 0
+
+font-0 = Anorexia:size=8;0
+font-1 = FontAwesome:size=7;0
+
+modules-center = bspwm
 
 [module/bspwm]
 type = internal/bspwm
@@ -110,24 +180,27 @@ ws-icon-3 = ;
 ws-icon-4 = ;
 
 label-focused = %icon%
-label-focused-underline = #6d8b94
-label-focused-background = #476771
+label-focused-underline = #BB913C
+label-focused-foreground = #F1E6D9
+label-focused-background = #252326
 
 label-focused-padding = 2
 label-occupied-padding = 2
 label-empty-padding = 2
 
 label-occupied = %icon%
-label-occupied-underline = #98b8c1
-label-occupied-background = #476771
+label-occupied-underline = #354442
+label-occupied-foreground = #5F8883
+label-occupied-background = #252326
 
 label-urgent = %icon%
-label-urgent-underline = #e85b97
-label-urgent-background = #476771
+label-urgent-underline = #93503e
+label-urgent-foreground = #93503e
+label-urgent-background = #252326
 
 label-empty = %icon%
-label-empty-background = #476771
-wm-restack = bspwm
+label-empty-background = #252326
+label-empty-foreground = #5F8883
 throttle-ms = 10
 throttle-limit = 5
 
